@@ -1,0 +1,70 @@
+/* RecipientForm.css */
+
+.recipient-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipient-form h2 {
+    color: #2d3748;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .recipient-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .recipient-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4a5568;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .recipient-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #1a202c;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .recipient-form input:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+  }
+  
+  .recipient-form button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .recipient-form button[type="submit"]:hover {
+    background-color: #3182ce;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 640px) {
+    .recipient-form {
+      padding: 1.5rem;
+    }
+  }

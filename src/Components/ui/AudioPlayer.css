@@ -1,0 +1,9 @@
+/* src/components/ui/AudioPlayer/AudioPlayer.css */
+.audio-player {
+    margin-top: 1rem;
+  }
+  
+  .audio-player audio {
+    width: 100%;
+    max-width: 300px;
+  }

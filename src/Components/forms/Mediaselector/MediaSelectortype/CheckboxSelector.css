@@ -1,0 +1,144 @@
+.checkbox-selector {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Adicionado para limitar a largura */
+}
+
+.checkbox-selector h3 {
+  margin-top: 0;
+  color: #334155;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column; /* Mudança principal - coluna em vez de linha */
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.option-card {
+  padding: 1.25rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.option-card.selected {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+}
+
+.option-card:hover {
+  background-color: #f1f5f9;
+}
+
+.option-control {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.option-control input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #3b82f6;
+}
+
+.option-control label {
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.option-description {
+  margin: 0;
+  margin-left: 1.75rem; /* Alinhar com o texto do label */
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+.media-details {
+  margin-top: 1rem;
+  padding: 1.25rem;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px dashed #e2e8f0;
+}
+
+.media-details h4 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Estilos para os previews */
+.preview-container {
+  margin-top: 1rem;
+}
+
+.photo-previews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.photo-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.photo-preview img {
+  margin-bottom: 0.25rem;
+}
+
+.video-preview {
+  margin-top: 1rem;
+}
+
+.music-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.music-option {
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.music-option:hover {
+  background-color: #f8fafc;
+}
+
+.music-option.selected {
+  background-color: #eff6ff;
+  border-color: #3b82f6;
+}
+
+.selected-music {
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #334155;
+}
+
+.checkbox-selector {
+  margin: 2rem auto; /* Alterado para 'auto' nas laterais */
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #f8fafc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%; /* Adicionado para responsividade */
+}
